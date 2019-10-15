@@ -1,4 +1,6 @@
-exports.start  = async function(client,args){
+const wh = require('./WebHook.js');
+
+exports.start  = async function(client,user,args){
 	var s = ""
 	for (var i = 0; i < args.length; i++) {
 		var em = await client.emojis.find(emoji => {
@@ -13,5 +15,5 @@ exports.start  = async function(client,args){
 		}
 		
 	}
-	return s
+	wh.sendMessage(user, s);
 }

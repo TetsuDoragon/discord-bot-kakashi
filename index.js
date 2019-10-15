@@ -15,10 +15,8 @@ kakashi.on('message', message =>{
 	const command = args.shift().toLowerCase();
 
 	if(command === "!copy"){
-		copy(kakashi, args).then((msg) =>{
-			message.channel.send(msg)
-			message.delete()
-		})
+		message.delete()
+		copy(kakashi, message.author, args)
 	}
 
 });
