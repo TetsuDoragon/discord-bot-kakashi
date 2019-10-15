@@ -17,6 +17,10 @@ kakashi.on('message', message =>{
 	if(command === "!copy"){
 		message.delete()
 		copy(kakashi, message.author, args)
+	}else 
+	if(command === "!fake"){
+		message.delete()
+		copy(kakashi, message.mentions.users.array()[0], args)
 	}
 
 });
