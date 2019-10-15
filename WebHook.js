@@ -1,5 +1,5 @@
 const webhook = require("webhook-discord")
-const Hook = new webhook.Webhook("https://discordapp.com/api/webhooks/633492005607047179/6kDZJj9_FOKkvhyLPyxO0lLOXJNIwFJgnY5zFYDGnS6IpPaGIG8PvfAsEwbLUYX14w6Z")
+const Hook = new webhook.Webhook("https://discordapp.com/api/webhooks/633490341651283989/javkUzUtCDzdpKk5kRVpak5RL_ZhUz17EfuS8JqZcGE9uaRZEDMtmBzYBC8koza5wMVK")
 
 
 
