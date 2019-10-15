@@ -2,7 +2,7 @@ const wh = require('./WebHook.js');
 
 exports.start  = async function(client,user,args){
 	console.log(args[0])
-	if (args[0][0] === '@'){
+	if (args[0][0] === '<' && args[0][1] === '@'){
 		args.splice(0, 1)
 	}
 	var s = ""
