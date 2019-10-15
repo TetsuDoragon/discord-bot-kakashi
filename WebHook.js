@@ -8,6 +8,6 @@ exports.sendMessage = async function(user, message){
 	const msg = await new webhook.MessageBuilder()
 	                .setName(user.username)
 	                .setText(message)
-	                .setImage(user.avatarURL)
+	                .setAvatar(user.avatarURL)
 	Hook.send(msg);
 }
