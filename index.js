@@ -25,7 +25,7 @@ kakashi.on('message', message =>{
 		copy(kakashi, message.mentions.users.array()[0], args)
 	}
 
-	//else if (command === "!zabuza"){
+	//else if(command === "!zabuza"){
 	//	client.channel.send("Ushi, Sara, Oo, Nae, Ee, Tori, Ushi, Uma, Tori, Nae,"
 	//						+" Tora, Inu, Tora, Mee, Ushi, Hitsuji, Mee, Ee, Hitsuji, Nae,"
 	//						+" Jin, Sara, Tori, Tatsu, Tori, Ushi, Uma, Hitsuji, Tora, Mee,"
